@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            height: 150px;
+            margin: auto;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(65, 65, 65);
+            padding: 3px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.432);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(226, 142, 142);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(71, 70, 70);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 70px;
+            border-radius: 50%;
+        }
+            
+        
+        #Assuntos{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.google.com/maps/@-23.5864064,-46.77632,14z?entry=ttu" target="_blank" rel="external">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes e Política</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis ipsam laborum ratione repudiandae accusamus nisi nam, fugit quas vero? Hic recusandae corrupti nostrum aliquid ducimus excepturi at, quaerat saepe!</p>
+
+           
+            <aside>
+                <p>Artigo escrito por José Pinga</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido pelo Davizão</p> 
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

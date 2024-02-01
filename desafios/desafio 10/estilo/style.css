@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family;
+    src: url(fontes/idroid.otf);
+}
+body{
+    background-color: #84E1AD;
+    background-size: cover;
+    
+
+}
+header{
+    background-image: linear-gradient(to top, #1B6139,#2A9558, #2DA060, #3BD47F);
+    padding: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.397);
+    
+    
+    
+}
+#cabeça{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 5px;
+}
+#pcabeça{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 10px;
+
+    
+}
+.menu{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 0.8em;
+   
+}
+main{
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+h1{
+    color:#245e3d ;
+}
+h2{
+    background-color: #DFF4E8;
+    color: #16723e;
+    font-size: 1.75em;
+}
+h3{
+    background-color: #2FA866;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    width: 650px;
+}
+p{
+    text-indent: 20px;
+}
+#video{
+    margin: auto;
+    width: 590px;
+    background-color: #1A5C38;
+    padding: 70px;
+}
+#caixaextra{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+div{
+    background-color: #C5EBD6;
+    padding: 10px;
+    
+}
+#texto{
+    border-radius: 10px;
+}
+footer{
+    background-color: #164e2f;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#rodape{
+    padding: 8px;
+    margin: 0px;
+}
+

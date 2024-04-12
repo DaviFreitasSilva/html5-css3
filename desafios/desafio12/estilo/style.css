@@ -68,6 +68,9 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.205);
     display: inline-block;
 }
+section#idimg01 {
+    background-image: ;
+}
 
 footer {
     background-color: black;
